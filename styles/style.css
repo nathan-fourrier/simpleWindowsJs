@@ -1,0 +1,42 @@
+.btn-create {
+    width: 10rem;
+    height: 5rem;
+    margin: 20px;
+}
+
+.window {
+    border: 0.5px solid black;
+    width: 400px;
+    height: 300px;
+    border-radius: 4px 4px 15px 15px ;
+    box-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.window-title {
+    padding-top: 5px;
+    text-align: center;
+    height: 15%;
+    color: white;
+    background-color: #3b3636;
+}
+
+.window-content {
+    height: 85%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: .8;
+}
+
+.xPos, .yPos {
+    color: green;
+}
+
+.xPos {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
